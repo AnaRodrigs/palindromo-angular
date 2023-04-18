@@ -18,8 +18,11 @@ relate (){
   if ( inicio === Inverso){
     this.resultado = "A combinação " +this.valor +"  é um palíndromo";
   }
-  else{
+  else if (inicio != Inverso ){
     this.resultado = "A combinação  " +this.valor +"  não é um palíndromo";
+  }
+  else {
+    this.mensagem = "digite uma combinação de três ou mais componentes";
   }
 }
 }
